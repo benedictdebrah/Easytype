@@ -1,0 +1,15 @@
+[project]
+name = "easytype"
+version = "0.1.0"
+description = "a project to solve one of my tedious tasks"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "groq>=0.18.0",
+    "keyboard>=0.13.5",
+    "numpy>=2.2.3",
+    "pyaudio>=0.2.14",
+    "pyautogui>=0.9.54",
+    "pyperclip>=1.9.0",
+    "sounddevice>=0.5.1",
+]
